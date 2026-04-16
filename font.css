@@ -260,3 +260,14 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+.nuclear-chart {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.bar-container { margin-bottom: 15px; }
+.label { font-size: 0.8rem; font-weight: bold; display: block; margin-bottom: 5px; }
+.bar-bg { background: #e2e8f0; height: 12px; border-radius: 10px; overflow: hidden; }
+.bar-fill { background: var(--blue); height: 100%; transition: width 1s ease-in-out; }
