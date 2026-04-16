@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Summit 2050 | União Europeia</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container flex-nav">
+            <div class="logo">ENERGY SUMMIT <span>2050</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#ue">União Europeia</a></li>
+                    <li><a href="#crise">Crise</a></li>
+                    <li><a href="#nuclear">Nuclear</a></li>
+                    <li><a href="#futuro">Futuro 2050</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+            <a href="#simulador" class="btn-cta">Explorar Cenário</a>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge">Análise Especial 2024-2050</span>
+            <h1>União Europeia: Energia, Crise e Futuro</h1>
+            <p>Como a dependência do gás russo e as decisões geopolíticas moldam a nova arquitetura energética do continente europeu.</p>
+            <a href="#ue" class="btn-main">Entender o Problema</a>
+        </div>
+    </section>
+
+    <section class="section" id="ue">
+        <div class="container">
+            <h2 class="section-title">Contexto Energético</h2>
+            <div class="grid-2">
+                <div>
+                    <p>A <strong>matriz energética</strong> é o conjunto de fontes de energia disponíveis para movimentar um país ou região. Na União Europeia, esse equilíbrio é delicado e extremamente interconectado.</p>
+                    <p>Historicamente, a Europa estruturou seu crescimento sobre uma base fóssil, mas a transição para o <strong>Net Zero</strong> em 2050 exige uma mudança radical.</p>
+                </div>
+                <div class="card-highlight">
+                    <h3>O Gargalo Europeu</h3>
+                    <p>Até 2022, cerca de <strong>40% do gás natural</strong> consumido na UE vinha da Rússia. Essa dependência transformou a energia em uma ferramenta de pressão geopolítica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark" id="crise">
+        <div class="container">
+            <div class="problem-box">
+                <span class="text-yellow">Geopolítica de Risco</span>
+                <h2>A Crise do Gás Russo</h2>
+                <p>A interrupção dos fluxos de gás via Nord Stream trouxe impactos imediatos: inflação recorde, fechamento de indústrias e a necessidade de reativação emergencial de usinas a carvão.</p>
+                <div class="quote">
+                    "A energia deixou de ser apenas uma commodity econômica e tornou-se o pilar central da segurança global."
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title text-center">O Dilema Energético</h2>
+            <p class="text-center subtitle">Como reduzir a dependência sem destruir a economia?</p>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <i class="fas fa-leaf icon"></i>
+                    <h3>Renováveis</h3>
+                    <p><strong>Prós:</strong> Independência total e emissão zero.</p>
+                    <p><strong>Contras:</strong> Intermitência (sol e vento) e custo de armazenamento.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-atom icon"></i>
+                    <h3>Energia Nuclear</h3>
+                    <p><strong>Prós:</strong> Estabilidade e alta potência sem CO₂.</p>
+                    <p><strong>Contras:</strong> Resíduos radioativos e alto custo inicial.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-ship icon"></i>
+                    <h3>Novos Parceiros</h3>
+                    <p><strong>Prós:</strong> Alívio imediato via GNL (EUA/Catar).</p>
+                    <p><strong>Contras:</strong> Altos preços e nova dependência externa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light" id="nuclear">
+        <div class="container">
+            <h2 class="section-title">A Renascença Nuclear</h2>
+            <div class="grid-2">
+                <div class="nuclear-info">
+                    <p>Considerada "energia limpa" pela taxonomia da UE em certos contextos, a energia nuclear divide opiniões entre potências como França (pró) e Alemanha (contra).</p>
+                    <div class="flex-list">
+                        <div class="list-item"><i class="fas fa-check text-blue"></i> Baixa emissão de carbono</div>
+                        <div class="list-item"><i class="fas fa-check text-blue"></i> Produção constante (Baseload)</div>
+                        <div class="list-item"><i class="fas fa-times text-red"></i> Gestão de lixo atômico</div>
+                        <div class="list-item"><i class="fas fa-times text-red"></i> Risco de acidentes severos</div>
+                    </div>
+                </div>
+                <div class="img-placeholder">[ Gráfico de Matriz Nuclear ]</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-blue text-white" id="simulador">
+        <div class="container text-center">
+            <h2>Simulador: Você é o Líder da UE</h2>
+            <p>Escolha uma estratégia e veja o impacto imediato no cenário de 2050.</p>
+            <div class="sim-buttons">
+                <button onclick="simular('verde')">Foco Total em Renováveis</button>
+                <button onclick="simular('nuclear')">Aposta Nuclear</button>
+                <button onclick="simular('acordos')">Acordos de GNL</button>
+            </div>
+            <div id="resultado-simulacao" class="res-box">
+                Clique em um botão para ver o resultado.
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="sobre">
+        <div class="container">
+            <div class="grid-2">
+                <div>
+                    <h3>Energy Summit 2050</h3>
+                    <p>Trabalho Acadêmico sobre Matrizes Energéticas e Geopolítica.</p>
+                    <p>Objetivo: Analisar os desafios da transição energética europeia frente aos conflitos contemporâneos.</p>
+                </div>
+                <div>
+                    <h3>IDENTIFICAÇÃO:</h3>
+                    <ul>
+                        <li>Escola: CEZAB</li>
+                        <li>Turma: 2ºA</li>
+                        <li>Hyan Marques</li>
+                        <li>Levy Lima</li>
+                        <li>Mayã Souza</li>
+                        <li>Lucas Queiroz</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 Energy Summit 2050 - Fins Educativos - Hyan Marques
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
